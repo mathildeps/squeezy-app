@@ -1,0 +1,14 @@
+
+
+"#challengeName": 
+{
+	top: "20",
+	returnKeyType: Ti.UI.RETURNKEY_NEXT,
+    suppressReturn: false
+}
+
+
+"#numberOfDays": 
+{
+	top: "10"
+}

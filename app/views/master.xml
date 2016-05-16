@@ -1,0 +1,49 @@
+<Alloy>
+	
+
+	
+<Window title="" id="master" statusBarStyle="Ti.UI.iPhone.StatusBar.LIGHT_CONTENT">
+	 <LeftNavButton platform="ios">
+        <Button id="profileBtn" onClick="openProfileWindow"/>    
+    </LeftNavButton>
+    <RightNavButton platform="ios">
+        <Button id="createChallengeBtn" onClick="openCreateChalWindow"/>    
+    </RightNavButton>
+	<ScrollView id="scrollView" showHorizontalScrollIndicator="true" height="100%" width="100%">
+
+		<View layout='vertical'> 
+			
+			<View layout='horizontal' top="15" height="Titanium.UI.SIZE" width="Titanium.UI.SIZE">
+				<Label id="greeting" class="head"></Label>
+				<Label id="name" class="head"></Label>
+			</View>
+			
+			<View id="t" height="140" width="Titanium.UI.SIZE"></View>
+			
+			<View layout='horizontal' height="13" width="210" top="15">
+				<View id="todaysFirst" borderRadius="2" 
+					backgroundColor="#E5B1E5" width="68" height="12" />
+				
+				<View id="todaysSecond" borderRadius="2" 
+					backgroundColor="#E5B1E5" width="68" height="12" left="3" />
+					
+				<View id="todaysThird" borderRadius="2" 
+					backgroundColor="#E5B1E5" width="68" height="12" left="3" />
+			</View>
+			
+			<View layout='horizontal' top="10" height="Titanium.UI.SIZE" width="Titanium.UI.SIZE">
+				<Label id="dailyCompleted" class="comToday bold">0</Label>
+				<Label class="comToday">/</Label>
+				<Label id="dailyTotal" class="comToday bold">30</Label>
+				<Label class="comToday" left="3">Completed Today</Label>
+			</View>
+			
+			<Button id="startBtn" title="Start Squeezing" onClick="openStartSqWindow" />
+			
+			
+            
+		</View>
+	</ScrollView>
+	</Window>
+	
+</Alloy>

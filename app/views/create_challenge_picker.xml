@@ -1,0 +1,11 @@
+<Alloy>
+	<NavigationWindow platform="ios" formFactor="handheld" id="picNav">
+		<Window modal="true" title="Select Date" id="create_challenge_picker" layout="vertical" statusBarStyle="Ti.UI.iPhone.StatusBar.LIGHT_CONTENT" backButtonTitle="Back" class="container">
+			<RightNavButton platform="ios">
+		        <Button id="doneBtn" onClick="closeModal" title="Done" />    
+		    </RightNavButton>
+			<Picker id="picker" type="Ti.UI.PICKER_TYPE_DATE" selectionIndicator="true"></Picker>
+		</Window> 
+	</NavigationWindow>
+	
+</Alloy>

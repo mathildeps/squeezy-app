@@ -1,0 +1,15 @@
+<Alloy>
+    <Window title="Profile" id="settings" layout="vertical" statusBarStyle="Ti.UI.iPhone.StatusBar.LIGHT_CONTENT" backButtonTitle="Back">
+        <View layout="vertical">
+        	
+        	<ImageView id="imageprofile"></ImageView>
+        	
+        	<Label class="fromSto" id="username" top="15" ></Label>
+			<Label class="fromSto" id="fullname"></Label>
+			<Label class="fromSto" id="email"></Label>
+	        
+	        <Button id="logOutBtn" class="ourButton" onClick="logOut">Log Out</Button>
+	        <Button id="reset" class="ourButton" onClick="reset">(dev)reset</Button>
+        </View>
+    </Window>
+</Alloy>

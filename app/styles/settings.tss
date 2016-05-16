@@ -1,0 +1,23 @@
+
+".fromSto": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+
+
+"#imageprofile": {
+	image: "dummy.png",
+	height:	"70",
+	width: "70",
+	top: "20",
+	borderWidth: "1",
+	borderColor: "#cc66cc",
+	borderRadius: "35"
+
+}
+
+
+
+
+
+

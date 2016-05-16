@@ -1,0 +1,42 @@
+"#profileBtn": {
+	backgroundImage: 'img/prof.png',
+	width: '36',
+	height: '36'
+}
+"#createChallengeBtn": {
+	backgroundImage: 'img/plus.png',
+	width: '36',
+	height: '36'
+}
+".head": {
+    font: {
+        fontSize: '26'
+    },
+        color: '#cc66cc'
+}
+
+"#table": {
+	top:'15'
+}
+
+
+"#startBtn": {
+	top:'10',
+	backgroundColor: '#cc66cc',
+	borderRadius: '10',
+	color: 'white',
+	width: '150',
+	height: '35'
+}
+".comToday": {
+	font: {
+        fontSize: '14'
+    }
+}
+
+
+".bold": {
+	font: {
+        fontWeight: 'bold'
+    }
+}

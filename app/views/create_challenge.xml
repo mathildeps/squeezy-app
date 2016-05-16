@@ -1,0 +1,24 @@
+<Alloy>
+    <Window title="Create Challenge" id="create_challenge" statusBarStyle="Ti.UI.iPhone.StatusBar.LIGHT_CONTENT" backButtonTitle="Back">
+        <ScrollView layout="vertical" id="holder" height="auto"> 
+        	
+        		<Label top="10" >Want to challenge yourself or other?\nIt's fun and helps you complete your goals!</Label>
+
+				<TextField id="challengeName" onReturn='selectNextField' hintText="Name your challenge"></TextField>
+				
+				<TextField id="pickerDate" hintText="When does it start?"></TextField>
+				
+				<TextField id="numberOfDays" hintText="For how many days?" keyboardType="Ti.UI.KEYBOARD_TYPE_NUMBER_PAD" ></TextField>
+				<Label top="10" color="#999" id="savingLbl" visible="false">Creating challenge ...</Label>
+				<View id="btns" layout="vertical" height="150">
+					<Button id="inviteFriendsButton" top="0" class="ourButton" onClick="inviteBtn">Challenge Others!</Button>
+				
+					<Label top="10" color="#bbb">Or</Label>
+					<Button id="privateButton" top="10" class="ourButton" onClick="personalBtn" backgroundColor="#E5B1E5">Create for Yourself only</Button>
+				</View>
+				
+				<View height="30"/>
+			</ScrollView>
+        
+    </Window>
+</Alloy>

@@ -1,0 +1,13 @@
+<Alloy>
+	
+	<!-- iPhone: Use Ti.UI.iOS.NavigationWindow -->
+	<NavigationWindow platform="ios" formFactor="handheld" id="navWin">
+		<Require src="master"/>
+	</NavigationWindow>
+	
+	
+	<!-- Android: Use master as root window -->
+	<Require platform="android" src="master" id="masterCtrl" />
+
+	
+</Alloy>

@@ -1,0 +1,23 @@
+<Alloy>
+    <Window title="How to" id="sq_how" statusBarStyle="Ti.UI.iPhone.StatusBar.LIGHT_CONTENT" backButtonTitle="Back">
+        <ScrollView layout="vertical" width="80%">
+        	
+        	
+	        <Label class="bold" top="20">Trin 1</Label>
+	        <Label class="" top="10">
+	        	Start din træning liggende, og lav isolerede knib, dvs. knib udelukkende med fokus på bækkenbundsmusklerne. I starten vil musklerne hurtigt blive udmattede, så 10 knib med maksimal kraft a 5 sek. samt 2-3 udholdenhedsknib med submaksimal kraft (en spænding lidt mindre end maksimalt muligt) a 10-15 sek. vil være et godt mål at sætte sig. Gentag seancen 2-3 gange om dagen.
+	        </Label>
+	        
+	        <Label class="bold" top="20">Trin 2</Label>
+	        <Label class="" top="10">
+	        	Når du kan udføre disse øvelser uden problemer, bliver næste udfordring at udføre dem siddende og stående, hvor tyngdekraften gør det sværere.
+	        </Label>
+	        
+	        <Label class="bold" top="20">Trin 3</Label>
+	        <Label class="" top="10">
+	        	Når du således har fået kontakt til din bækkenbund, kan du gå i gang med de funktionelle knib, hvor bækkenbunden er aktiv, samtidig med at andre muskler i kroppen arbejder og trykket i bug- og bækkenhulen stiger.	
+	        </Label>
+	        <View height="30"/>
+        </ScrollView>
+    </Window>
+</Alloy>

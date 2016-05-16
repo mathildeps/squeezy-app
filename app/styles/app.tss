@@ -1,0 +1,45 @@
+'Window': {
+	backgroundColor: '#FFF',
+	font: {
+		fontFamily: "Roboto-Light"
+	}
+}
+
+'Window[platform=ios]': {
+	barColor: '#cc66cc',
+	navTintColor: '#FFF',
+	translucent: false,
+	titleAttributes: {
+		color: '#FFF'
+	}
+}
+
+'Label': {
+	color: '#000'
+}
+
+"TextField": {
+	height : "40",
+	borderWidth: "1",	
+	width: "70%",
+	top: "10",
+	borderColor: "#cc66cc",
+	paddingLeft: "10",
+	font: {
+		fontFamily: "Roboto-Regular",
+		fontSize: "18"
+	}
+}
+
+".ourButton": {
+	backgroundColor: "cc66cc",
+	width: "60%",
+	borderRadius: "10",
+	top: "20",
+	height: "35",
+	color: "white",
+	font: {
+		fontFamily: "Roboto-Regular"
+	}
+	
+}

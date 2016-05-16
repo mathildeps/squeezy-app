@@ -1,0 +1,63 @@
+".container": {
+	backgroundColor:"white",
+	layout: "vertical",
+	font: {
+		fontFamily: "Roboto-Light"
+	}
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#001a1a"
+}
+
+"#label": {
+	top: "8",
+	color: "#CC66CC",
+	font: {
+		fontSize: 24,
+		fontFamily: "Roboto-Light"
+	}
+	
+}
+
+"#username": {
+	hintText: "Username",
+	returnKeyType: Ti.UI.RETURNKEY_NEXT,
+    suppressReturn: false	
+	
+}
+
+"#password": {
+	hintText: "Password",
+	passwordMask: "true",
+	returnKeyType: Ti.UI.RETURNKEY_DONE,
+    suppressReturn: false	
+}
+
+"#imagelogin":{
+	image: "logo-squeezy.png",
+	height: "100",
+	top: "50"
+}
+
+"#btn_login": {
+	backgroundColor: "#CC66CC",
+	width: "60%",
+	top: 20,
+	borderRadius: 5,
+	text: "white",
+	color: "#ffffff",
+	font: {
+		fontFamily: "Roboto-Regular"
+	}
+}
+"#btn_newlogin": {
+	height: 35,
+	color: "#888",
+	top: "10", 
+	font: {
+		fontSize: "15"
+	}
+}

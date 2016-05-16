@@ -1,0 +1,18 @@
+<Alloy>
+	<Window title="Login" id="login" layout="vertical" statusBarStyle="Ti.UI.iPhone.StatusBar.DARK" backButtonTitle="Back" class="container">
+		<ScrollView layout="vertical" id="holder" height="auto"> 
+			<ImageView id="imagelogin"></ImageView>
+			<Label id="label">Login</Label>
+			
+			<View layout="vertical" id="formHolder" height="Titanium.UI.SIZE">
+				<TextField id="username" onReturn='selectNextField'></TextField>
+				<TextField id="password" onReturn='doLogin'></TextField> 
+				
+				<Button id="btn_login" onClick="doLogin">Login</Button>
+				<Button id="btn_newlogin" onClick="goToReq">Click here join the fun.</Button>
+			</View>
+			<Label top="0" color="#999" id="savingLbl" visible="false">Authenticating user...</Label>
+			<View height="30"/>
+		</ScrollView>
+	</Window>
+</Alloy>

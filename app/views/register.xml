@@ -1,0 +1,20 @@
+<Alloy>
+	<Window title="New User" id="register" statusBarStyle="Ti.UI.iPhone.StatusBar.DARK" backButtonTitle="Back" class="container">
+		<ScrollView layout="vertical" id="holder" height="auto"> 
+				<ImageView id="imagelogo"></ImageView>
+				<Label id="label">Register</Label>
+				<TextField id="name" onReturn='selectNextField'></TextField>
+				<TextField id="email" keyboardType="Ti.UI.KEYBOARD_TYPE_EMAIL" onReturn='selectNextField'></TextField>
+				<TextField id="username" onReturn='selectNextField'></TextField>
+				<TextField id="password" onReturn='selectNextField'></TextField>
+				<TextField id="retypepassword" onReturn='completeRegister'></TextField>
+				<Label top="10" color="#999" id="savingLbl" visible="false">Creating user ...</Label>
+				<View id="btns" layout="vertical" height="150">
+					<Button id="Btn_login" onClick='completeRegister'>Register</Button>
+					<Button id="btn_back" onClick="goToLogin">Cancel</Button>
+				</View>
+				
+				<View height="30"/>
+		 </ScrollView> 
+	</Window>
+</Alloy>

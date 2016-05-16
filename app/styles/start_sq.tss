@@ -1,0 +1,29 @@
+".head": {
+    font: {
+        fontSize: '26'
+    },
+        color: '#cc66cc'
+}
+
+".subtitle": {
+    font: {
+        fontSize: '16'
+    },
+        color: '#888',
+  		textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#tmp": {
+	 font: {
+        fontSize: '20'
+    },
+        color: '#999',
+        zindex: '1000'
+}
+
+"#circle": {
+	bottom: 0,
+	backgroundColor: '#EAD2ED',
+	height: 0,
+	zIndex:100
+}
